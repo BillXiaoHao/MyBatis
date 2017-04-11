@@ -1,12 +1,13 @@
 package com.ww.domain;
 
+import dao.UserDao;
 import lombok.Data;
 
 /**
  * Created by Administrator on 2017/4/11.
  */
 @Data
-public class BaseDo {
+public class BaseDo{
     private String state;//是否可用状态
 
     private String createBy;//创建人
